@@ -15,3 +15,10 @@ script:
   env:
     MY_VAR: 2
 ```
+
+## clustd
+
+Find the other projects below to get started and for more information.
+
+- clustd daemon: https://github.com/steemdunk/clustd
+- clustd library: https://github.com/steemdunk/clustd-lib
