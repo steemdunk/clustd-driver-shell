@@ -33,4 +33,11 @@ export function setConfig(conf: Config) {
 function validate() {
   assert(Config.host, 'missing host config');
   assert(Config.secret, 'missing cluster secret config');
+
+  assert(Config.script, 'missing script config');
+  assert(Config.script.shell, 'missing script.shell config');
+  assert(Config.script.cwd, 'missing script.cwd config');
+  assert(Config.script.env, 'missing script.env config');
+  assert(Config.script.start, 'missing script.start config');
+  assert(Config.script.stop, 'missing script.stop config');
 }
